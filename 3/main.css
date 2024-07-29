@@ -1,0 +1,35 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
+nav {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+  }
+}
+h1 {
+  text-align: center;
+  margin-inline: auto;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+
+.card {
+  max-width: 400px;
+  padding: 1.5rem;
+  border: 2px solid var(--surface-2);
+  display: grid;
+  gap: 0.5rem;
+  justify-items: start;
+}
+footer {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
