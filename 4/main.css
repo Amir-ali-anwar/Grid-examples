@@ -4,9 +4,37 @@
 
 nav {
     ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      gap: 1rem;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 1rem;
     }
-  }
+}
+
+.hero-card {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    gap: 0.2rem;
+    background-color: var(--surface-2);
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: var(--shadow-4);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-inline: auto;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
