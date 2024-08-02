@@ -38,3 +38,16 @@ footer {
     place-items: center;
     padding: 1rem;
 }
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 4fr 2fr 2fr;
+}
+
+.hero img {
+    grid-area: 1/1 /-1/-1;
+  }
+  
+.hero-card {
+    grid-area: 2/2/4/3;
+  }
